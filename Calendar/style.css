@@ -1,0 +1,29 @@
+table.m-table {
+  border: none;
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr.header {
+  background-color: aqua;
+  height: 100px;
+  font-size: xx-large;
+}
+
+tr.days {
+  background-color: lightgray;
+  font-size: x-large;
+}
+
+tbody.t-body {
+  background-color: rgb(241, 236, 236);
+  color: blue;
+}
+
+tr.f-row td:nth-child(1),
+tr.l-row td:nth-last-child(1),
+tr.l-row td:nth-last-child(2),
+tr.l-row td:nth-last-child(3) {
+  color: gray;
+}
